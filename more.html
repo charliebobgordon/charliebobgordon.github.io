@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+    <!-- Header -->
+    <header>
+        <a href="/" id="logo">Charlie Bob Gordon</a>
+        <label for="show-menu" class="show-menu">Menu</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction section -->
+    <div class="black">            
+        <h1 id="more-projects">More projects</h1>
+    </div>
+
+
+    <!-- Projects grid -->
+    <div id="projects">
+        <ul>
+            {% for post in site.categories.more %}
+            <li>
+                <a href="{{ post.url }}">
+                    <figure>
+                        <img src="{{ post.thumbnail }}">
+                        <figcaption><p>{{ post.title }}</p></figcaption>
+                    </figure>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>

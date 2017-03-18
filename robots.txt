@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+Disallow: /more/
+
+User-agent: Browsershots
+Disallow:

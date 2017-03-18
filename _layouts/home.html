@@ -1,0 +1,59 @@
+---
+layout: default
+name: id="home"
+---
+
+    <!-- Video loader -->
+    <div id="loader-container"><div id="loader"></div></div>
+
+    <!-- Header -->
+    <header>
+        <a href="/" id="logo">Charlie Bob Gordon</a>
+        <label for="show-menu" class="show-menu">Menu</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction section -->
+    <div id="introduction" class="fullscreen black">            
+        <h1 class="strapline">Hello! <span class="emoji"></span> I’m <strong>Charlie Bob Gordon</strong>, <br>a <strong>digital designer</strong> working @ Crafted <br>in Suffolk, UK.</h1>
+    </div>
+
+    <div class="video-background fullscreen">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/OWzl2xxkrWs?controls=0&showinfo=0&rel=0&autoplay=1&disablekb=1&enablejsapi=1&loop=1&iv_load_policy=3&playlist=OWzl2xxkrWs" allowfullscreen></iframe>
+        </div>
+    </div>     
+
+
+    <!-- Projects grid -->
+    <div id="projects">
+        <ul>
+            {% for post in site.categories.projects %}
+            <li>
+                <a href="{{ post.url }}">
+                    <figure>
+                        <img src="{{ post.thumbnail }}">
+                        <figcaption><p>{{ post.title }}</p></figcaption>
+                    </figure>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+
+    <!-- About section -->
+    <div id="about" class="fullscreen black">
+        <div class="content-right">
+            <h1>I’m 21 with over <br><strong>5 years of agency<br> experience</strong></h1>
+            <p>I design websites, mobile applications, user interfaces, printed collateral and presentations all with a user-centric and analytical approach. My designs look pretty but above all they deliver information to the user in the best possible way.</p>
+            <p>When I’m not working I like creating films, flying my drone, travelling, skiing and taking part in ridiculous endurance challenges.</p>
+        </div>
+    </div>
