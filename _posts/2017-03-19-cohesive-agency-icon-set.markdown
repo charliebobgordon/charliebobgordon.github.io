@@ -25,3 +25,7 @@ The four pillars represent the key services of the agency. Online marketing, des
 Glyphs to represent staff benefits were created including the cycle to work scheme, fresh fruit, gym membership and the beer fridge.
 
 <figure><img src="/images/projects/agency-icons/icons-benefits.png" alt="Cycle to work scheme, fresh fruit, gym membership and beer fridge" class="fixed"/></figure>
+
+## 48 icons and counting…
+
+<figure><img src="/images/projects/agency-icons/icons-grid.png" alt="Full agency icon set grid" class="fixed"/></figure>
