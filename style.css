@@ -6,6 +6,7 @@ body {
     line-height: 2;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 ::selection {
@@ -668,7 +669,7 @@ html#home, body#home {
 
 #project-content .responsive {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
     object-position: top;
     font-family: 'object-fit: cover; object-position: top;'
