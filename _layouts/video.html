@@ -19,7 +19,11 @@ name: id="project"
     <div id="project-content">
 
         <!-- Project hero image -->
-        <img src="{{ page.hero }}" class="hero responsive fullscreen"/>
+        <div class="video-background fullscreen">
+            <div class="video-foreground">
+                <iframe src="https://www.youtube.com/embed/{{ post.embedcode }}?controls=0&showinfo=0&rel=0&autoplay=1&disablekb=1&enablejsapi=1&loop=1&iv_load_policy=3&playlist={{ post.embedcode }}" allowfullscreen volume="0"></iframe>
+            </div>
+        </div>             
 
         <!-- Project title -->
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
