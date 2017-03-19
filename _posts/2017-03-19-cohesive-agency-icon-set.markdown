@@ -28,4 +28,4 @@ Glyphs to represent staff benefits were created including the cycle to work sche
 
 ## 48 icons and counting…
 
-<figure><img src="/images/projects/agency-icons/icons-grid.png" alt="Full agency icon set grid" class="fixed"/></figure>
+<figure><img src="/images/projects/agency-icons/icons-grid.jpg" alt="Full agency icon set grid" class="fixed"/></figure>
