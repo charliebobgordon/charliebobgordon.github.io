@@ -1,5 +1,5 @@
 ---
-layout: image-project
+layout: gallery
 title:  "Cohesive agency icon set"
 date:   2017-03-19 15:40:00 +0000
 categories: projects
