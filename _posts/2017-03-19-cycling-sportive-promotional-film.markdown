@@ -4,7 +4,7 @@ title:  "Cycling sportive promotional film"
 date:   2017-03-19 18:55:00 +0000
 categories: projects
 thumbnail: /images/projects/classique-video/classique-thumb.jpg
-embedurl: T4_6ZOTUhoQ
+embedcode: T4_6ZOTUhoQ
 ---
 
 Our agency sponsors a local cycling event and I used the opportunity to film and produce a promotional video for it using my Sony RX100 IV, GoPro and DJI Phantom 4 drone.
