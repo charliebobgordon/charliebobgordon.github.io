@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: project
 title:  "IMDb website redesign"
 date:   2017-03-19 14:10:00 +0000
 categories: projects

@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: project
 title:  "Cohesive agency icon set"
 date:   2017-03-19 15:40:00 +0000
 categories: projects
@@ -9,12 +9,12 @@ hero: /images/projects/agency-icons/icons-hero.jpg
 
 We needed a cohesive visual language to represent various areas of the agency for use in printed collateral, presentations and on the web. I created a range of icon glyphs that could be expanded in the future.
 
-<figure><img src="/images/projects/agency-icons/icons-sketches.png" alt="Early icon ideas and sketches" class="responsive"/></figure>
+<figure><img src="/images/projects/agency-icons/icons-sketches.png" alt="Early icon ideas and sketches" class="fixed"/></figure>
 
 ## Grid system
 Similar to how Apple created a grid system for iOS app icons in the iOS Human Interface Guidelines I created a custom grid system to control the layout and stroke weight of each glyph.
 
-<figure><img src="/images/projects/agency-icons/icons-layout.png" alt="The icon grid system" class="responsive"/></figure>
+<figure><img src="/images/projects/agency-icons/icons-layout.png" alt="The icon grid system" class="fixed"/></figure>
 
 ## The four pillars
 The four pillars represent the key services of the agency. Online marketing, design, development and digital consultancy.
