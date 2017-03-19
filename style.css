@@ -47,7 +47,7 @@ h2 {
 .fullscreen {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100vh !important;
     min-height: 800px;
     clear: both;
     display: -webkit-flex;
@@ -707,18 +707,4 @@ html#home, body#home {
 
 #project #projects li {
     width: 50%;
-}
-
-
-
-.fullscreen {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    min-height: 800px;
-    clear: both;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
 }
