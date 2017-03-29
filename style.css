@@ -377,7 +377,7 @@ input[type=checkbox]:checked ~ nav {
         min-height: auto;
     }
     
-    #project hero {
+    #project .hero {
         padding: 0;
     }
     
