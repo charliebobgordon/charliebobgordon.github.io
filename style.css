@@ -377,6 +377,10 @@ input[type=checkbox]:checked ~ nav {
         min-height: auto;
     }
     
+    #project hero {
+        padding: 0;
+    }
+    
     .content-center {
         width: 100%;
         height: auto;
