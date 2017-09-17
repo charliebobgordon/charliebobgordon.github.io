@@ -91,8 +91,8 @@ if (typeof Object.create !== "function") {
         wmode: 'opaque',
         branding: 0,
         autohide: 0,
-        rel: 1,
-        related: 1
+        rel: 0,
+        related: 0
       },
       events: null
     },
