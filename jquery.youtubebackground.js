@@ -90,7 +90,9 @@ if (typeof Object.create !== "function") {
         showinfo: 0,
         wmode: 'opaque',
         branding: 0,
-        autohide: 0
+        autohide: 0,
+        rel: 1,
+        related: 1
       },
       events: null
     },
