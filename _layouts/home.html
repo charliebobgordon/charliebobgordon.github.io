@@ -42,11 +42,11 @@ name: id="home"
   <script>
     jQuery(function($) {
       
-      $('#background-video').YTPlayer({
+      $('#video-background').YTPlayer({
       });
       
       var videoCallbackEvents = function() {
-        var player = $('#background-video').data('ytPlayer').player;
+        var player = $('#video-background').data('ytPlayer').player;
       
         player.addEventListener('onStateChange', function(event){
             console.log("Player State Change", event);
