@@ -4,6 +4,7 @@ title:  "IMDb website redesign"
 date:   2017-03-19 14:10:00 +0000
 categories: projects
 thumbnail: /images/projects/imdb/imdb-thumb.jpg
+thumbnailalt: Screenshot of the IMDB concept
 hero: /images/projects/imdb/imdb-hero.jpg
 ---
 

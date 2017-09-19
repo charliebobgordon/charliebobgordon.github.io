@@ -4,6 +4,7 @@ title:  "Cohesive agency icon set"
 date:   2017-03-19 15:40:00 +0000
 categories: projects
 thumbnail: /images/projects/agency-icons/icons-thumb.gif
+thumbnailalt: Animated GIF cycling through icons glyphs in the set
 hero: /images/projects/agency-icons/icons-hero.jpg
 ---
 

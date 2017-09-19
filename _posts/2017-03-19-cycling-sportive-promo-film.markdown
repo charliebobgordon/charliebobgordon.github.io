@@ -4,6 +4,7 @@ title:  "Cycling sportive promo film"
 date:   2017-03-19 18:55:00 +0000
 categories: projects
 thumbnail: /images/projects/classique-video/classique-thumb.jpg
+thumbnailalt: Photo of bicycle handlebars with cyclists in background
 hero: /images/projects/classique-video/classique-hero.jpg
 ---
 
