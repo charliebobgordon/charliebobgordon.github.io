@@ -173,7 +173,7 @@ header nav ul, header nav ul li {
 
 .strapline {
     margin: 0 10%;
-    z-index: 99;
+    color: white;
 }
 
 * { box-sizing: border-box; }
