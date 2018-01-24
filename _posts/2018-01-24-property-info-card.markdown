@@ -9,3 +9,5 @@ hero: /images/projects/dailyui/01-property-info-card.png
 ---
 
 I created this property info card shot as part of the Daily UI Design Challenge where I challenged myself to design something everyday for 100 days to flex my creative muscle.
+
+<figure><img src="/images/projects/dailyui/01-property-info-card.png" alt="Blue property info card" class="fixed"/></figure>
