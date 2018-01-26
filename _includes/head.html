@@ -319,18 +319,35 @@
             animation-duration: 2s;
           }
 
-        @keyframes hideLogo {
-            0%      {opacity: 1;}
-            50%     {opacity: 1;}
-            100%    {opacity: 0;}
-        }
-
           #home #introduction {
             animation-name: videoFade;
             animation-iteration-count: 1;
             animation-timing-function: ease-out;
             animation-duration: 3.5s;
           }
+            
+          #home #introduction h1,
+          #home header #logo,
+          #home header nav {
+            animation-name: elementsFade;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-out;
+            animation-duration: 4.5s;
+          }
+            
+          body#home {
+            animation-name: scrollDisable;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-out;
+            animation-duration: 4.5s;
+          }
+        }
+        
+        @keyframes hideLogo {
+            0%      {opacity: 1;}
+            50%     {opacity: 1;}
+            100%    {opacity: 0;}
+        }
 
         @keyframes videoFade {
             0% {
@@ -346,15 +363,6 @@
             }
         }
 
-          #home #introduction h1,
-          #home header #logo,
-          #home header nav {
-            animation-name: elementsFade;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-out;
-            animation-duration: 4.5s;
-          }
-
         @keyframes elementsFade {
             0% {
               opacity: 0;
@@ -368,13 +376,6 @@
               opacity: 1;
             }
         }
-
-          body#home {
-            animation-name: scrollDisable;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-out;
-            animation-duration: 4.5s;
-          }
 
         @keyframes scrollDisable {
             0% {
@@ -391,6 +392,7 @@
 
             }
         }
+            
     </style>
         
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon/favicon.ico" type="image/x-icon" />
