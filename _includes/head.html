@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
 
-    <style type="text/css">
+    <style>
     
         body {
           font-family: Roboto,Helvetica,Arial,sans-serif;
@@ -208,7 +208,7 @@
           }
 
           #introduction {
-            background: none,linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../css/images/working.jpg) 0 0/ cover !important;
+            background: none,linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/working.jpg) 0 0/ cover !important;
           }
 
           header nav {
@@ -307,7 +307,7 @@
           #introduction {
             background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjkwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDEyOTAgODAwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtvcGFjaXR5OjA7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAyPC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjEyOTAiIGhlaWdodD0iODAwIi8+PHBvbHlnb24gcG9pbnRzPSI0NDUgMCAwIDAgMCA4MDAgNjQ1IDgwMCA0NDUgMCIvPjwvZz48L2c+PC9zdmc+) center / cover no-repeat scroll,
                             linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-                            url(../css/images/working.jpg) top left / cover no-repeat scroll;
+                            url(images/working.jpg) top left / cover no-repeat scroll;
           }
         }
 
@@ -320,17 +320,9 @@
           }
 
         @keyframes hideLogo {
-            0% {
-              opacity: 1;
-            }
-
-            50% {
-              opacity: 1;
-            }
-
-            100% {
-              opacity: 0;
-            }
+            0%      {opacity: 1;}
+            50%     {opacity: 1;}
+            100%    {opacity: 0;}
         }
 
           #home #introduction {
@@ -399,7 +391,6 @@
 
             }
         }
-        }    
     </style>
         
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon/favicon.ico" type="image/x-icon" />
