@@ -27,32 +27,18 @@ name: id="home"
 
     <!-- Background video -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{ site.url }}/jquery.youtubebackground.js"></script>
-    <div id="video-background" class="video-background"></div>
+    <script src="ofi.min.js"></script>
+    <video id="video-background" class="video-background" muted playsinline loop>
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.webm" type="video/webm" />
+    </video>
 
-  <script>
-    jQuery(function($) {
-      
-      $('#video-background').YTPlayer({
-      });
-      
-      var videoCallbackEvents = function() {
-        var player = $('#video-background').data('ytPlayer').player;
-      
-        player.addEventListener('onStateChange', function(event){
-            console.log("Player State Change", event);
-
-            // OnStateChange Data
-            if (event.data === 0) {          
-                console.log('video ended');
-            }
-            else if (event.data === 2) {          
-              console.log('paused');
-            }
+    <script>
+        var videoElement = document.getElementById("video-background");
+        videoElement.addEventListener('canplaythrough',function(){
+            this.play();
         });
-      }
-    });
-  </script>
+    </script>
 
 
     <!-- Projects grid -->
